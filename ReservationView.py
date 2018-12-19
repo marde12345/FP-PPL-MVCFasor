@@ -1,7 +1,8 @@
 class ReservasiView:
-	def printReservasiDetail(self, NamaPemesan, NRP, Fasilitas, Tanggal, Waktu):
-		print('Pemesan = ' + NamaPemesan)
-		print('NRP = '+ NRP)
-		print('Tempat yang digunakan : ' + Fasilitas)
-		print('Tanggal : ' + Tanggal, Waktu)
+	def printReservasiDetail(self, NamaPemesan, NRP, Tanggal, WaktuMulai, WaktuSelesai, resv, biaya):
+		print('Pemesan : ' + NamaPemesan)
+		print('NRP : '+ NRP)
+		print('Tanggal : ' + Tanggal, WaktuMulai, '-', WaktuSelesai)
+		print('Fasilitas : ' + str(resv))
+		print('Biaya : ' + str(biaya))
 		
